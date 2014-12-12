@@ -34,7 +34,7 @@ void ImportantFunc2(SYSTEMFUNC pSystemFunc)
 }
 
 int MyFunc(int a, char strp[]){
-	int num = a;
+	int num = a; 
 	return 1;
 };
 
@@ -51,8 +51,9 @@ int main(void){
 	int(*PTR)(int, char[]);
 	PTR = &MyFunc;
 	printf("%d\n", (*PTR)(1,"ii"));
+	char src[] = "hi";
+	printf("%d", strlen(src));
 	getchar();
+	
 	return 0;
 }
-
-
