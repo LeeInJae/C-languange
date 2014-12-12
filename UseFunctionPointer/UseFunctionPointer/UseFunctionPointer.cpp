@@ -33,6 +33,11 @@ void ImportantFunc2(SYSTEMFUNC pSystemFunc)
 	(*pSystemFunc)();
 }
 
+int MyFunc(int a, char strp[]){
+	int num = a;
+	return 1;
+};
+
 int main(void){
 	SYSTEMFUNC pfn;
 	if (IsWindows9x())
@@ -42,6 +47,12 @@ int main(void){
 
 	ImportantFunc(pfn);
 	ImportantFunc2(pfn);
+	
+	int(*PTR)(int, char[]);
+	PTR = &MyFunc;
+	printf("%d\n", (*PTR)(1,"ii"));
 	getchar();
 	return 0;
 }
+
+
