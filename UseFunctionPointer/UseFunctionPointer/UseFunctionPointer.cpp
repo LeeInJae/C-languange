@@ -51,8 +51,7 @@ int main(void){
 	int(*PTR)(int, char[]);
 	PTR = &MyFunc;
 	printf("%d\n", (*PTR)(1,"ii"));
-	char src[] = "hi";
-	printf("%d", strlen(src));
+	
 	getchar();
 	
 	return 0;
