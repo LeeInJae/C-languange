@@ -21,7 +21,7 @@ List * CreateList(){
 	}
 	head->prev = head;
 	head->next = head;
-	head->data = 0;
+	head->data = 0;//의미없는 데이터(빈 헤드노드)
 
 	//List 의 head 멤버를 head노드로 가리킴
 	List * list = new List;
@@ -153,7 +153,16 @@ void AddData(List * intList, int data){
 	insertNodeAfter(intList->head, newNode);
 }
 
+class A{
+public:
+	A(){};
+	int x = 3;
+};
+
 int main(void){
+	A pt1, pt2, pt3;
+
+	pt1 = pt2 = pt3;
 	List * intList = nullptr;
 	intList = CreateList();
 
@@ -165,7 +174,6 @@ int main(void){
 	printf("%d\n", SearchData(intList, 3));
 	printf("%d\n", SearchData(intList, 4));
 	printf("%d\n", SearchData(intList, 5));
-
 
 	ShowAll(intList);
 	RemoveList(intList, true);

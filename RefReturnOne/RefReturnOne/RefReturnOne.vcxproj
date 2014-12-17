@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1C324838-F58D-4D42-BEC6-623EF0644E68}</ProjectGuid>
+    <ProjectGuid>{99D5BF66-10E2-477A-8C06-5F74A8BEA447}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>LinkedList</RootNamespace>
+    <RootNamespace>RefReturnOne</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,10 +78,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LinkedList.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <ClCompile Include="RefReturnOne.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

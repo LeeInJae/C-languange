@@ -11,9 +11,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1C324838-F58D-4D42-BEC6-623EF0644E68}</ProjectGuid>
+    <ProjectGuid>{05B527DA-174E-4877-BEEC-73478A9A4E39}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>LinkedList</RootNamespace>
+    <RootNamespace>DocWriter</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -78,10 +78,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="DocWriter.cpp" />
+    <ClCompile Include="HTMLWriter.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClassDiagram.cd" />
+    <ClInclude Include="DocWriter.h" />
+    <ClInclude Include="HTMLWriter.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
