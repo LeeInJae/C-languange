@@ -1,0 +1,143 @@
+[33mcommit f6f7cfe956536d607de3f42c0e90b6e3866027bb[m
+Author: injae.lee <injae.lee@navercorp.com>
+Date:   Fri May 26 19:15:56 2017 +0900
+
+    bbb add
+
+[33mcommit 0e51109b553f8342144534a3f2ef849f1b42b773[m
+Author: injae.lee <injae.lee@navercorp.com>
+Date:   Fri May 26 19:15:08 2017 +0900
+
+    aaa add
+
+[33mcommit 325edbbde353b0e9c3c28e0affeac64172b184f7[m
+Merge: 9111a19 71e4343
+Author: injae.lee <injae.lee@navercorp.com>
+Date:   Fri May 26 19:06:21 2017 +0900
+
+    Merge branch 'global/dev'
+
+[33mcommit 9111a197afbe31c4a5bf50a552a9a31c472b3f89[m
+Author: injae.lee <injae.lee@navercorp.com>
+Date:   Fri May 26 18:48:47 2017 +0900
+
+    test5,6 add
+
+[33mcommit 71e434346f52ae162cd939dc513ded1708c30330[m
+Author: injae.lee <injae.lee@navercorp.com>
+Date:   Fri May 26 18:47:06 2017 +0900
+
+    test3, tes4.txt add
+
+[33mcommit 43168010d7bbbd4b6cd662f3113290227c69bb8c[m
+Author: injae.lee <injae.lee@navercorp.com>
+Date:   Fri May 26 18:46:00 2017 +0900
+
+    test2.txt add
+
+[33mcommit ec5d0e1c6b834c7b761ef9777f25737ec0bf033f[m
+Author: injae.lee <injae.lee@navercorp.com>
+Date:   Fri May 26 18:45:28 2017 +0900
+
+    test1.txt add
+
+[33mcommit 6e3747bffeb9d84cd021753d77170bfa35d86e66[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Thu Dec 18 02:16:20 2014 +0900
+
+    부모클래스와 자식클래스의 사이즈비교문 추가
+    
+    상속 및 업캐스트에 대한 내용
+    
+    상속관련 연습 및 virtual 키워드를 활용한 다형성
+    
+    동적할당한 메모리를 해제해주고나서는 포인터 주소를 nullptr로 초기화해주는 것이 안정적임.
+    
+    auto_ptr 실습예제
+    
+    add TryCatch & polymorphic
+
+[33mcommit 7c9adf30c54a4216d3df89e6b2b5a73dc3e20ae4[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Thu Dec 18 02:03:59 2014 +0900
+
+    const에 관한 연습들
+
+[33mcommit b568573c02562bee90044df791254638b71c1e78[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Mon Dec 15 23:37:04 2014 +0900
+
+    링크드 리스트 수정 및 주석추가
+
+[33mcommit e46c54b41ca28b01284889182cb37d5787236196[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Mon Dec 15 21:14:11 2014 +0900
+
+    add cpp to C & getline & lincked list
+
+[33mcommit 62d91281bc1542012eeae26988aa5fc0453e1efe[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Fri Dec 12 12:06:52 2014 +0900
+
+    C++ string 을 C char 배열에 대입
+
+[33mcommit 14ddba5538a2080593034e8135f90143d29e06bd[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Fri Dec 12 12:03:43 2014 +0900
+
+    add C 무자열 style 을 C++ string 에 대입(복사)
+
+[33mcommit 98063d06e18cb5c9581cc9e366ce463a77561eb5[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Fri Dec 12 11:00:56 2014 +0900
+
+    modify PTR
+
+[33mcommit f356af9aa6dd4a39409426705b4c1f45920874fc[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Fri Dec 12 10:45:15 2014 +0900
+
+    add FunctionPointer
+
+[33mcommit 21bc87800b3cee9193b9c00010549687258f5773[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Fri Dec 12 01:38:48 2014 +0900
+
+    add recursive_example1
+
+[33mcommit 9c258e25006e499cf4c76535812acf2e3b9be98b[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Thu Dec 11 16:52:04 2014 +0900
+
+    modify
+    parameter_array2
+
+[33mcommit 3e6f1a430368ff7d51526f3cfe876ebe86d2238d[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Thu Dec 11 16:38:31 2014 +0900
+
+    add parameter_arryay2
+
+[33mcommit f026a050abe0870214b583ed1b609bbee172eb37[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Thu Dec 11 16:16:38 2014 +0900
+
+    parameter_array
+
+[33mcommit a55f9bdf19520b2824c057e921cb90408f0d49df[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Thu Dec 11 15:57:57 2014 +0900
+
+    add const_array
+
+[33mcommit 57493d4e26f7c48e4b53ba042e7478865abd65f1[m
+Author: LeeInJae <cowspirit@naver.com>
+Date:   Thu Dec 11 15:51:14 2014 +0900
+
+    add reference example
+
+[33mcommit 4a33356e852f6119a7c7c49e49a106738117a8aa[m
+Author: InJaeLee <LeeInJae@users.noreply.github.com>
+Date:   Thu Dec 11 15:41:01 2014 +0900
+
+    Initial commit
